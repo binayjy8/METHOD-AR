@@ -25,7 +25,10 @@
 //     return el * 2;
 // });
 
-let num = [1, 3, 4, 5, 6, 8, 9, 10, 12];
-let ans = num.filter( (el) => {
-    return el % 2 != 0;
-});
+// let num = [1, 3, 4, 5, 6, 8, 9, 10, 12];
+// let ans = num.filter( (el) => {
+//     return el % 2 != 0;
+// });
+
+let num = [1, 2, 3, 4];
+let finalVal = num.reduce( (result, el) => result + el);
