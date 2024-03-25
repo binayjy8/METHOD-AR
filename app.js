@@ -70,6 +70,17 @@
 
 // let char = [..."binay"];
 
-let arr = ["peter", "eliza", "swan", "max", "sony"];
+// let arr = ["peter", "eliza", "swan", "max", "sony"];
 
-let [winner, runnerups, ...others] = arr;
+// let [winner, runnerups, ...others] = arr;
+
+const info = {
+    name: "peter",
+    age:42,
+    subject: ["eng", "math", "sci", "zlo"],
+    city: "khuntapingu",
+    username: "lepe@123",
+    password: "aswe"
+}
+
+let {username: user, password} = info;
