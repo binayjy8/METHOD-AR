@@ -33,14 +33,19 @@
 // let num = [1, 2, 3, 4];
 // let finalVal = num.reduce( (result, el) => result + el);
 
-let arr = [2, 4, 5 ,9 ,11, 39];
+// let arr = [2, 4, 5 ,9 ,11, 39];
 
-let ans = arr.reduce( (max, el) => {
-    if(el > max) {
-        return el;
-    } else {
-        return max;
-    }
-});
+// let ans = arr.reduce( (max, el) => {
+//     if(el > max) {
+//         return el;
+//     } else {
+//         return max;
+//     }
+// });
 
+// console.log(ans);
+
+let arr = [10, 20, 40, 80];
+
+let ans = arr.every( (el) => el%10 == 0);
 console.log(ans);
