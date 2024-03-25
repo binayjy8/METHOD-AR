@@ -68,5 +68,8 @@
 //     return a+b;
 // }
 
-let char = [..."binay"];
+// let char = [..."binay"];
 
+let arr = ["peter", "eliza", "swan", "max", "sony"];
+
+let [winner, runnerups, ...others] = arr;
