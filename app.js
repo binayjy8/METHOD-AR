@@ -19,8 +19,13 @@
 //     console.log(el.mark);
 // });
 
-let arr = [1, 2, 3, 4];
+// let arr = [1, 2, 3, 4];
 
-let double = arr.map( (el) => {
-    return el * 2;
+// let double = arr.map( (el) => {
+//     return el * 2;
+// });
+
+let num = [1, 3, 4, 5, 6, 8, 9, 10, 12];
+let ans = num.filter( (el) => {
+    return el % 2 != 0;
 });
