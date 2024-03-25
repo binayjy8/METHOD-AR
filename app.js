@@ -89,3 +89,8 @@ let nums = [1, 2, 4, 7, 9];
 
 let square = nums.map( (num) => num * num);
 console.log(square);
+
+let sum = square.reduce( (acc, el) => acc+el, 0);
+let avg = sum/nums.length;
+
+console.log(avg);
