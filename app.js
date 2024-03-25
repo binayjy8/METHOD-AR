@@ -30,5 +30,17 @@
 //     return el % 2 != 0;
 // });
 
-let num = [1, 2, 3, 4];
-let finalVal = num.reduce( (result, el) => result + el);
+// let num = [1, 2, 3, 4];
+// let finalVal = num.reduce( (result, el) => result + el);
+
+let arr = [2, 4, 5 ,9 ,11, 39];
+
+let ans = arr.reduce( (max, el) => {
+    if(el > max) {
+        return el;
+    } else {
+        return max;
+    }
+});
+
+console.log(ans);
