@@ -64,7 +64,9 @@
 //     return min;
 // }
 
-function sum(a, b = 4) {
-    return a+b;
-}
+// function sum(a, b = 4) {
+//     return a+b;
+// }
+
+let char = [..."binay"];
 
