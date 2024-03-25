@@ -74,13 +74,18 @@
 
 // let [winner, runnerups, ...others] = arr;
 
-const info = {
-    name: "peter",
-    age:42,
-    subject: ["eng", "math", "sci", "zlo"],
-    city: "khuntapingu",
-    username: "lepe@123",
-    password: "aswe"
-}
+// const info = {
+//     name: "peter",
+//     age:42,
+//     subject: ["eng", "math", "sci", "zlo"],
+//     city: "khuntapingu",
+//     username: "lepe@123",
+//     password: "aswe"
+// }
 
-let {username: user, password} = info;
+// let {username: user, password} = info;
+
+let nums = [1, 2, 4, 7, 9];
+
+let square = nums.map( (num) => num * num);
+console.log(square);
