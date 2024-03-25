@@ -50,16 +50,21 @@
 // let ans = arr.every( (el) => el%10 == 0);
 // console.log(ans);
 
-let arr = [3, 4, 5, 1, 8];
+// let arr = [3, 4, 5, 1, 8];
 
-function getMin(arr) {
-    let min = arr.reduce( (min, el) => {
-        if( min < el) {
-            return min;
-        } else {
-            return el;
-        }
-    });
+// function getMin(arr) {
+//     let min = arr.reduce( (min, el) => {
+//         if( min < el) {
+//             return min;
+//         } else {
+//             return el;
+//         }
+//     });
 
-    return min;
+//     return min;
+// }
+
+function sum(a, b = 4) {
+    return a+b;
 }
+
