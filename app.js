@@ -103,8 +103,10 @@
 
 // console.log(string.map( (string) => string.toUpperCase()));
 
-const doubleAndReturnArg = (arr, ...args) => [
-    ...arr,
-    ...args.map((v) => v*2),
-];
+// const doubleAndReturnArg = (arr, ...args) => [
+//     ...arr,
+//     ...args.map((v) => v*2),
+//
 
+const mergeObjects=(obj1,obj2)=>({...obj1,...obj2});
+mergeObjects({a:1,b:2},{c:3,d:4});
