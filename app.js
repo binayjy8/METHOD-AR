@@ -99,6 +99,14 @@
 
 // console.log(numbers.map( (number) => number + 5) );
 
-let string = ["kebin", "peter", "max"];
+// let string = ["kebin", "peter", "max"];
 
-console.log(string.map( (string) => string.toUpperCase()));
+// console.log(string.map( (string) => string.toUpperCase()));
+
+const doubleAndReturnArg = (arr, ...args) => [
+    ...arr,
+    ...args.map((v) => v*2),
+];
+
+doubleAndReturnArg([1,2], 5, 7);
+doubleAndReturnArg([2,], 4, 5);
