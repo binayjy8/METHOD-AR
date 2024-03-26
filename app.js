@@ -95,6 +95,10 @@
 
 // console.log(avg);
 
-let numbers = [2, 4, 8, 9, -7, -4];
+// let numbers = [2, 4, 8, 9, -7, -4];
 
-console.log(numbers.map( (number) => number + 5) );
+// console.log(numbers.map( (number) => number + 5) );
+
+let string = ["kebin", "peter", "max"];
+
+console.log(string.map( (string) => string.toUpperCase()));
