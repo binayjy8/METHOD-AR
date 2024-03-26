@@ -108,5 +108,3 @@ const doubleAndReturnArg = (arr, ...args) => [
     ...args.map((v) => v*2),
 ];
 
-doubleAndReturnArg([1,2], 5, 7);
-doubleAndReturnArg([2,], 4, 5);
