@@ -85,12 +85,16 @@
 
 // let {username: user, password} = info;
 
-let nums = [1, 2, 4, 7, 9];
+// let nums = [1, 2, 4, 7, 9];
 
-let square = nums.map( (num) => num * num);
-console.log(square);
+// let square = nums.map( (num) => num * num);
+// console.log(square);
 
-let sum = square.reduce( (acc, el) => acc+el, 0);
-let avg = sum/nums.length;
+// let sum = square.reduce( (acc, el) => acc+el, 0);
+// let avg = sum/nums.length;
 
-console.log(avg);
+// console.log(avg);
+
+let numbers = [2, 4, 8, 9, -7, -4];
+
+console.log(numbers.map( (number) => number + 5) );
