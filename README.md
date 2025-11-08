@@ -1,1 +1,1 @@
-# METHOD-AR by binay bhus
+# METHOD-AR by binay bhusa
