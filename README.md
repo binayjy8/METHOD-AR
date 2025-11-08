@@ -1,1 +1,1 @@
-# METHOD-AR by bin
+# METHOD-AR by bina
