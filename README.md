@@ -1,1 +1,1 @@
-# METHOD-AR by binay bhusan mohanta the autho
+# METHOD-AR by binay bhusan mohanta the author
