@@ -1,1 +1,1 @@
-# METHOD-AR by binay bhusan mohant
+# METHOD-AR by binay bhusan mohanta
