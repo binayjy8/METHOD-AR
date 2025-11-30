@@ -1,1 +1,1 @@
-# METHOD-AR by binay bhusan mohanta the aut
+# METHOD-AR by binay bhusan mohanta the au
